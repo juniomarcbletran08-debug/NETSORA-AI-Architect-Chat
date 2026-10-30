@@ -1,0 +1,9 @@
+name = "netsora-ai-architect-api"
+main = "worker/index.ts"
+compatibility_date = "2026-10-29"
+workers_dev = true
+
+[vars]
+MAX_REQUESTS_PER_MINUTE = "12"
+# Set GEMINI_MODEL and ALLOWED_ORIGIN in Cloudflare Dashboard.
+# GEMINI_API_KEY must be a Worker Secret.
